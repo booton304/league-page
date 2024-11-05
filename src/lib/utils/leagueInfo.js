@@ -71,7 +71,7 @@ export const managers = [
     {
       "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "manager ID": "472285933727641600",
-      "name": "John Ritter",
+      "name": "Jacob "Mexi" Hunter",
       "tookOver": 2009, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Lex Vegas", // (optional)
       "bio": "Lorem ipsum...",
@@ -93,8 +93,8 @@ export const managers = [
     },
       {
       "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "manager ID": "465023468333690880",
-      "name": "Heath Booton",
+      "manager ID": "605653510083665920",
+      "name": "Ben Dreckman",
       "tookOver": "null", // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Fort Thomas, Kentucky", // (optional)
       "bio": "Lorem ipsum...",
@@ -116,8 +116,8 @@ export const managers = [
     },
     {
       "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "manager ID": "471785970241368064",
-      "name": "Zach Burns",
+      "manager ID": "472877605121421312",
+      "name": "Mitch",
       "tookOver": 2009, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Northern Kentucky", // (optional)
       "bio": "Lorem ipsum...",
@@ -139,31 +139,31 @@ export const managers = [
     },
     {
       "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "manager ID": "472285933727641600",
-      "name": "John Ritter",
+      "manager ID": "469271566111207424",
+      "name": "Zach Burns",
       "tookOver": 2009, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "Lex Vegas", // (optional)
+      "location": "Northern Kentucky", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-      "fantasyStart": 2008, // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": "ind", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+      "fantasyStart": 2006, // (optional) when did the manager start playing fantasy football
+      "favoriteTeam": "den", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
-        name: "Burns", // Can be anything (usually your rival's name)
-        link: 2, // manager array number within this array, or null to link back to all managers page
+        name: "Heath", // Can be anything (usually your rival's name)
+        link: 1, // manager array number within this array, or null to link back to all managers page
         image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
-      "favoritePlayer": 1326, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-      "valuePosition": "QB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-      "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+      "favoritePlayer": 1439, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+      "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Your fantasy team's philosophy",
-      "tradingScale": 10, // 1 - 10
-      "preferredContact": "WhatsApp", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+      "tradingScale": 5, // 1 - 10
+      "preferredContact": "Carrier Pigeon", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
       "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "manager ID": "465023468333690880",
-      "name": "Heath Booton",
+      "manager ID": "733354050103443456",
+      "name": "Jessica Dubb",
       "tookOver": "null", // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Fort Thomas, Kentucky", // (optional)
       "bio": "Lorem ipsum...",
@@ -186,9 +186,9 @@ export const managers = [
     {
       "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "manager ID": "471785970241368064",
-      "name": "Zach Burns",
+      "name": "Cody Wren",
       "tookOver": 2009, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "Northern Kentucky", // (optional)
+      "location": "West By Gawd Virginia", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2006, // (optional) when did the manager start playing fantasy football
@@ -208,8 +208,8 @@ export const managers = [
     },
     {
       "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "manager ID": "472285933727641600",
-      "name": "John Ritter",
+      "manager ID": "473163961286520832",
+      "name": "Jon Muench",
       "tookOver": 2009, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Lex Vegas", // (optional)
       "bio": "Lorem ipsum...",
@@ -231,31 +231,31 @@ export const managers = [
     },
     {
       "roster": 10,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "manager ID": "465023468333690880",
-      "name": "Heath Booton",
-      "tookOver": "null", // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "Fort Thomas, Kentucky", // (optional)
+      "manager ID": "465178538568314880",
+      "name": "John Ritter",
+      "tookOver": 2009, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "location": "Lex Vegas", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-      "fantasyStart": 2009, // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": "cin", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-      "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+      "fantasyStart": 2008, // (optional) when did the manager start playing fantasy football
+      "favoriteTeam": "ind", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         name: "Burns", // Can be anything (usually your rival's name)
         link: 2, // manager array number within this array, or null to link back to all managers page
         image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
-      "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-      "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-      "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+      "favoritePlayer": 1326, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "valuePosition": "QB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+      "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Your fantasy team's philosophy",
-      "tradingScale": 7, // 1 - 10
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+      "tradingScale": 10, // 1 - 10
+      "preferredContact": "WhatsApp", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
       "roster": 11,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "manager ID": "471785970241368064",
-      "name": "Zach Burns",
+      "manager ID": "602552032624185344",
+      "name": "Tyler B",
       "tookOver": 2009, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Northern Kentucky", // (optional)
       "bio": "Lorem ipsum...",
@@ -277,8 +277,8 @@ export const managers = [
     },
     {
       "roster": 12,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "manager ID": "472285933727641600",
-      "name": "John Ritter",
+      "manager ID": "472455789307490304",
+      "name": "Tommy Guns",
       "tookOver": 2009, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Lex Vegas", // (optional)
       "bio": "Lorem ipsum...",
