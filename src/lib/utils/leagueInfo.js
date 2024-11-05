@@ -7,12 +7,9 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>Ladies and gentlemen, gather ‘round as I take you on a journey—one filled with glory, triumph, and perhaps just a hint of questionable decisions. This, my friends, is the history of our legendary fantasy football league. It all started back in the halcyon days of 2009, when a group of savvy, charismatic, and undeniably handsome individuals decided to engage in the most competitive of sports: fantasy football.</p>
+  <p>Now, you might ask, "What makes this league so special?" Well, let me tell you—it's the passion, the drama, the absolute insanity of watching a bunch of grown men (and occasionally a woman) battle it out for bragging rights, pride, and sometimes, for a trophy that may or may not have been bought at a Goodwill. We’ve seen it all—trading blunders, underdog victories, and, of course, the kind of trash talk that could make a sailor blush. But through it all, one thing has remained constant: the desire to win. To dominate. To crush our opponents in the name of victory and glory.</p>
+  <p>And as the years have passed, we’ve welcomed new members, said farewell to others, but never lost the thrill that comes with the draft, the waiver wire, or that glorious, sweet moment when you finally crush your friend’s dreams. So, whether you're new to the league or have been with us since the beginning, know this: This league is more than just fantasy—it’s a lifestyle. A beautiful, cutthroat, unforgettable lifestyle. And we are all part of it. Stay classy, fantasy football fans.</p>
 `;
 
 /*   STEP 3   */
