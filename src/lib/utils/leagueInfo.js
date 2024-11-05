@@ -47,7 +47,7 @@ export const managers = [
     },
     {
       "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "manager ID": "469271566111207424",
+      "manager ID": "471785970241368064",
       "name": "Zach Burns",
       "tookOver": 2009, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Northern Kentucky", // (optional)
@@ -70,7 +70,7 @@ export const managers = [
     },
     {
       "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "manager ID": "465178538568314880",
+      "manager ID": "472285933727641600",
       "name": "John Ritter",
       "tookOver": 2009, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Lex Vegas", // (optional)
