@@ -71,7 +71,7 @@ export const managers = [
     {
       "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "manager ID": "472285933727641600",
-      "name": "Jacob "Mexi" Hunter",
+      "name": "Jacob Hunter",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Lex Vegas", // (optional)
       "bio": "Lorem ipsum...",
