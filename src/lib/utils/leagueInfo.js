@@ -23,7 +23,7 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 
 export const managers = [
     {
-      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+//      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "manager ID": "465023468333690880",
       "name": "Heath Booton",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -46,7 +46,7 @@ export const managers = [
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+//      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "manager ID": "601232057120645120",
       "name": "Patrick Fecher",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -69,7 +69,7 @@ export const managers = [
       "preferredContact": "Carrier Pigeon", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+//      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "manager ID": "472285933727641600",
       "name": "Jacob Hunter",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -92,7 +92,7 @@ export const managers = [
       "preferredContact": "WhatsApp", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+//      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "manager ID": "605653510083665920",
       "name": "Ben Dreckman",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -115,7 +115,7 @@ export const managers = [
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+//      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "manager ID": "472877605121421312",
       "name": "Mitch",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -138,7 +138,7 @@ export const managers = [
       "preferredContact": "Carrier Pigeon", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+//      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "manager ID": "469271566111207424",
       "name": "Zach Burns",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -161,7 +161,7 @@ export const managers = [
       "preferredContact": "Carrier Pigeon", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+//      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "manager ID": "733354050103443456",
       "name": "Jessica Dubb",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -184,7 +184,7 @@ export const managers = [
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+//      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "manager ID": "471785970241368064",
       "name": "Cody Wren",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -207,7 +207,7 @@ export const managers = [
       "preferredContact": "Carrier Pigeon", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+//      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "manager ID": "473163961286520832",
       "name": "Jon Muench",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -230,7 +230,7 @@ export const managers = [
       "preferredContact": "WhatsApp", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+//      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "manager ID": "465178538568314880",
       "name": "John Ritter",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -253,7 +253,7 @@ export const managers = [
       "preferredContact": "WhatsApp", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+//      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "manager ID": "602552032624185344",
       "name": "Tyler B",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -276,7 +276,7 @@ export const managers = [
       "preferredContact": "Carrier Pigeon", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+//      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "manager ID": "472455789307490304",
       "name": "Tommy Guns",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
