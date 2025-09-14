@@ -171,7 +171,7 @@
             <li>The commissioner, or a majority vote of the league, reserves the right to invite new members to fill any vacated spots.</li>
             <li>Membership can be expanded with a majority vote.</li>
             <li>All members are expected to be active participants throughout the year, including setting a full lineup each week and engaging in league communications and votes.</li>
-<ol class="list-decimal pl-5">    
+<ol>    
     <h2 class="sectionHeading" bind:this={two}>Article II Financials</h2>
     
     <h3 bind:this={twoOne}>Section 2.1 Annual Buy-In</h3>
@@ -195,7 +195,7 @@
 <ol>
 
     <h3 bind:this={threeTwo}>Section 3.2 Rule Changes</h3>
-    <ol class="list-decimal pl-5">        
+    <ol>        
         <li>Any proposed rule change must be submitted to the league for a vote.</li>
 
         <li>All rule changes, with the exception of those related to collusion as detailed in Article VIII, require a majority approval vote (7 out of 12 teams) to be enacted.</li>
@@ -208,7 +208,7 @@
     <h3 bind:this={fourOne}>4.1 Roster Size</h3>
     <p>Each team's total roster size is a maximum of 30 players, with 22 of those players being considered active. The breakdown is as follows:</p>
     <p>    Starting Lineup:</p>
-        <ol class="list-decimal pl-5">
+        <ol>
             <li>1 QB</li>
             <li>2 RB</li>
             <li>2 WR</li>
@@ -242,7 +242,7 @@
     <h3 bind:this={sixTwo}>Section 6.2 FAAB</h3>
     <p>Each team is issued $100 in FAAB (Free Agent Acquisition Budget) at the beginning of each season.</p>
 
-        <ol class="list-decimal pl-5">
+        <ol>
             <li>FAAB budgets reset when the league is renewed each year.</li>
             <li>There is no minimum bid amount. Bids of $0 are permitted.</li>
             <li>FAAB dollars can be traded as a tradable asset.</li>
