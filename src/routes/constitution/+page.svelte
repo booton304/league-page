@@ -97,6 +97,10 @@
     }
 </style>
 
+ol {
+  list-style-position: inside;
+}
+
 <div class="constitution">
     <h1 class="noUnderscore">BOYS CLUB CONSTITUTION</h1>
     
