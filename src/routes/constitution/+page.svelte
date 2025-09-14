@@ -156,7 +156,7 @@
     
     <hr />
     
-    <h2 class="sectionHeading" bind:this={one}>Article 1 League Structure and Membership</h2>
+    <h2 class="sectionHeading" bind:this={one}>Article I League Structure and Membership</h2>
     
     <h3 class="subSectionHeading" bind:this={oneOne}>Section 1.1 League Format</h3>
     
@@ -166,78 +166,144 @@
     
     <p>The league shall consist of 12 teams.</p>    
     
-    <h3 bind:this={oneThree}>1.3 Waiver Wire</h3>
+    <h3 bind:this={oneThree}>Section 1.3 Membership</h3>
+        <ol>
+            <li>The commissioner, or a majority vote of the league, reserves the right to invite new members to fill any vacated spots.</li>
+            <li>Membership can be expanded with a majority vote.</li>
+            <li>All members are expected to be active participants throughout the year, including setting a full lineup each week and engaging in league communications and votes.</li>
+        <ol>    
+    <h2 class="sectionHeading" bind:this={two}>Article II Financials</h2>
     
-    <p>FAAB Waiver wire system. Each team will begin the season with $100. $0 bids are allowed. Bids will process Thursdays and Sundays at 9AM EST.</p>
+    <h3 bind:this={twoOne}>Section 2.1 Annual Buy-In</h3>
+    <p>The annual buy-in is $50 per team.</p>
 
-    <p>FAAB budgets will reset each season in January.</p>
+    <h3 bind:this={twoTwo}>Section 2.2 Payment Deadline</h3>
+    <p>All buy-in fees are due prior to the first kickoff of the NFL regular season. Failure to pay on time may result in the forfeiture of a future draft pick, as determined by the commissioner and a league vote.</p>
     
+    <h3 bind:this={twoThree}>Section 2.3 Payouts</h3>
+    <p>The distribution of the prize pool will be determined by a league vote at the start of each season.</p>
     
-    <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
-    
-    <h3 bind:this={twoOne}>2.1 Draft Order</h3>
-    <p>The draft order each year will be a linear draft in reverse order of the previous year’s regular season standings.</p>
+    <h2 class="sectionHeading" bind:this={three}>Article III League Governance and Rule Changes</h2>
 
-    <h3 bind:this={twoTwo}>2.2 Rookie Drafts</h3>
-    <p>Rokkie drafts will consist of 3 round of drafting, with 5 minutes alotted for each pick. To make room for the incoming players, benches will be expanded by (5) spots. These spots will be removed in mid-August, at which point you will need to have cut the necessary players.</p>
-    <p>Any spots not filled during the draft, can be filled immediately afterwards from the waiver wire.</p>
-    
-    <h3 bind:this={twoThree}>2.3 Draft Day Trades</h3>
-    <p>If a trade is being made during the draft, one or both parties can alert the commissioner to pause the draft to allow for extra time to negotiate the trade.</p>
-    
-    <h2 class="sectionHeading" bind:this={three}>Section 3 Scoring System</h2>
-
-    <h3 bind:this={threeOne}>3.1 Scoring System</h3>
-    <p>The league scoring system breakdown is listed on the Sleeper fantasy app (for the most part, it follows typical .5PPR Scoring). The scoring system will never change without a majority league vote.</p>
-    
-    <h2 class="sectionHeading" bind:this={four}>Section 4 Postseason</h2>
-    
-    <h3 bind:this={fourOne}>4.1 Playoffs</h3>
-    <p>At the end of the season 6 teams will make the playoffs. The first round of playoffs will commence in week 15. Each team that wins their division and the 4 wild card teams that finish with the best records, will receive a playoff berth. The 2 teams that win their division will receive a bye week in the first round of the playoffs. Each playoff matchup will only last one week and the winner will advance. Week 18 will not be used.</p>
-    
-    <h3 bind:this={fourTwo}>4.2 Seeding Tiebreakers</h3>
-    <p>If two teams finish with the same record the tiebreakers will go as followed:</p>
-
+    <h3 bind:this={threeOne}>Section 3.1 The Commissioner</h3>
+    <p>The Commissioner is responsible for the day-to-day operation of the league, including but not limited to:</p>
     <ol>
-        <li>Points For</li>
-        <li>Head 2 Head Record</li>
-        <li>Division Record</li>
-        <li>Total Points Against</li>
-        <li>Coin Flip</li>
-        <li>Duel to the death</li>
-    </ol>
+        <li>Enforcing the rules outlined in this Constitution,</li>
+        <li>Managing the Sleeper fantasy app settings,</li>
+        <li>Facilitating the annual rookie draft and offseason, and</li>
+        <li>Acting as the final arbiter in any disputes.</li>
+    <ol>
 
-    <h2 class="sectionHeading" bind:this={five}>Section 5 Tanking Policy</h2>
-    
-    <h3 bind:this={fiveOne}>5.1 League Tanking Policy</h3>
-    <p>No team may intentionally leave starting roster spots empty. Any evidence of intentionally leaving roster spots empty in order to improve your draft position may be subject to punishment, including but not limited to the forfeiture of draft selections.</p>
+    <h3 bind:this={threeTwo}>Section 3.2 Rule Changes</h3>
+    <ol>        
+        <li>Any proposed rule change must be submitted to the league for a vote.</li>
 
-    <h2 class="sectionHeading" bind:this={six}>Section 6 Replacing Managers</h2>
-    
-    <h3 bind:this={sixOne}>6.1 Removing Managers</h3>
-    <p>Short of continuously failing to set a valid lineup, or confirmed collusion, no manager can be removed against their will. Participation, through the league chat, trade offers, and the waiver wire, is strongly encouraged but generally grounds for removal.</p>
-    
-    <h3 bind:this={sixTwo}>6.2 Replacing Managers</h3>
-    <p>When a manager needs to be replaced, the commisiooners will try to find a suitable candidate with some connection to at least a portion of the existing managers. Priority will be placed on managers who are eager to take on a dynasty commitment and will be very active within the league.</p>
-    
-    <h3 bind:this={sixThree}>6.3 Replacement Incentive</h3>
-    <p>In the event that a manager chooses to quit the league or is removed by a comissioner, an incoming manager is offered a 50% reductioon on their first year buy-in.</p>
+        <li>All rule changes, with the exception of those related to collusion as detailed in Article VIII, require a majority approval vote (7 out of 12 teams) to be enacted.</li>
 
-    <h2 class="sectionHeading" bind:this={seven}>Section 7 League Finances</h2>
+        <li>Rule changes will not take effect until the start of the following season, unless a time-sensitive issue requires an immediate vote and implementation (e.g., an unforeseen rule discrepancy).</li>
+    <ol>
+
+    <h2 class="sectionHeading" bind:this={four}>Article IV Roster and Lineups</h2>
     
-    <h3 bind:this={sevenOne}>7.1 League Dues</h3>
-    <p>League dues are set at {dues}$. Dues are collected through <a href="https://www.leaguesafe.com/league/3949641">LeagueSafe</a> and collection will be sent out no later than the first of August. All managers must be fully paid up before the start of regular season. In the event that a manager fails to pay before the deadline, a 10% penalty will be addd to their payment and will go towards the payouts at the end of the year.</p>
+    <h3 bind:this={fourOne}>4.1 Roster Size</h3>
+    <p>Each team's total roster size is a maximum of 30 players, with 22 of those players being considered active. The breakdown is as follows:</p>
+    <p>    Starting Lineup:</p>
+        <ol>
+            <li>1 QB</li>
+            <li>2 RB</li>
+            <li>2 WR</li>
+            <li>1 TE</li>
+            <li>4 Flex (RB/WR/TE)</li>
+        </ol>
+
+    <p>    Bench: 15 players</p>
+    <p>    Injured Reserve (IR): 3 spots for players with an official IR designation.</p>
+    <p>    Taxi Squad: 2 spots reserved for players with 1 year of less of NFL experience. Once a player is moved off the Taxi Squad, they cannot be returned.</p>
     
-    <h3 bind:this={sevenTwo}>7.2 Payout</h3>
-    <p>League payout is structured as follows:</p>
-    <ul>
-        <li>1st place: {dues * 8}$</li>
-        <li>2nd place: {dues * 3}$</li>
-        <li>3rd place: {dues}$</li>
-    </ul>
-    <p>In the event that a manager was fined due to late payment, their extra fee will be added to the winner's payout. Similarly, if new managers come into the league and the payout is smaller, the difference will come out of the winner's prize.</p>
+    <h3 bind:this={fourTwo}>Section 4.2 Active Roster</h3>
+    <p>All teams must set a complete starting lineup each week of the regular season and playoffs. Intentionally leaving a starting roster spot empty to improve a draft position (tanking) is not permitted. Any evidence of such behavior may result in a punishment, including but not limited to the forfeiture of draft selections, as determined by the commissioner and a league vote.</p>
+
+    <h2 class="sectionHeading" bind:this={five}>Article V Draft</h2>
     
-    <h3 bind:this={sevenThree}>7.3 Raising Dues</h3>
-    <p>A ⅔ majority vote is required in order to raise league dues. In the event that a manager is no longer financially comfortable with the buyin, finding a co-manager to split the cost is reccomended.</p>
+    <h3 bind:this={fiveOne}>Section 5.1 Annual Rookie Draft</h3>
+    <p>The annual rookie draft will be a linear draft consisting of 4 rounds.</p>
+
+    <h3 bind:this={fiveTwo}>Section 5.2 Draft Order</h3>
+
+    <p>Picks 7-12: The draft positions for the top six finishers in the regular season (teams that did not make the playoffs) will be determined in reverse order of their final regular season standings.</p>
+
+    <p>Picks 1-6: The draft order for the six playoff teams will be determined by a weighted, yet random process. This process will be selected each year by the team that finished last in the regular season and is subject to a league vote for approval. The process is intended to emulate an NBA-style draft lottery to maintain competitive balance among top teams.</p>
+
+    <h2 class="sectionHeading" bind:this={six}>Article VI Waivers and Free Agency</h2>
+    
+    <h3 bind:this={sixOne}>Section 6.1 Waiver Wire</h3>
+    <p>The waiver wire is continually open.</p>
+    
+    <h3 bind:this={sixTwo}>Section 6.2 FAAB</h3>
+    <p>Each team is issued $100 in FAAB (Free Agent Acquisition Budget) at the beginning of each season.</p>
+
+        <ol>
+            <li>FAAB budgets reset when the league is renewed each year.</li>
+            <li>There is no minimum bid amount. Bids of $0 are permitted.</li>
+            <li>FAAB dollars can be traded as a tradable asset.</li>
+        </ol>
+    
+    <h2 class="sectionHeading" bind:this={seven}>Article VII Trading</h2>
+    
+    <h3 bind:this={sevenOne}>Section 7.1 Tradable Assets</h3>
+    <p>Tradable assets include players, draft picks, and FAAB dollars.</p>
+    
+    <h3 bind:this={sevenTwo}>Section 7.2 Draft Pick Trading</h3>
+    <p>Teams are permitted to trade draft picks up to 3 drafts away (e.g., in 2025, you can trade picks for the 2026, 2027, and 2028 drafts).</p>
+    
+    <h3 bind:this={sevenThree}>Section 7.3 Trade Processing</h3>
+        <ol>
+            <li>Trades will process immediately upon acceptance by all parties.</li>
+            <li>The commissioner reserves the right to reverse a trade if it is under investigation for collusion.</li>
+        </ol>
+
+    <h3 bind:this={sevenFour}>Section 7.4 Player Re-Acquisition</h3>
+    <p>Any player traded from a team may not be re-acquired via trade by the original team within 6 weeks of the original trade date. Any teams involved in this behavior will be subject to collusion punishments.</p>
+    
+    <h2 class="sectionHeading" bind:this={eight}>Article VIII Collusion and Penalties</h2>
+    
+    <h3 bind:this={eightOne}>Section 8.1 Definition of Collusion</h3>
+        <ol>
+            <li>Collusion is defined as an act where two or more owners work together to unfairly enhance a single team's chances of winning, or otherwise disrupt the integrity of the league.</li>
+            <li>Examples include, but are not limited to: accepting bribes, offering bribes, trading assets other than fantasy players, draft picks, or FAAB dollars, or organizing veto votes against a fair and acceptable trade.</li>
+        </ol>
+
+    <h3 bind:this={eightTwo}>Section 8.2 Commissioner Discretion</h3>
+    <p>The commissioner will err on the side of allowing owners to manage their teams as they see fit. Any accusation of collusion must be clear and supported by evidence. The commissioner reserves the right to investigate and assess the thinking of any team involved in a heavily lop-sided trade.</p>
+    
+<h3 bind:this={eightTwo}>Section 8.2 Collusion Penalties</h3>
+    <p> If any owner is found guilty of engaging in any form of collusion, the following penalties will be applied:</p>
+        <ol>
+            <li>First Offense: Immediate reduction of the team's FAAB budget by 80%.</li>
+            <li>Second Offense: Immediate freeze on all transaction types for the next 18 weeks of fantasy football games (regular season and playoffs), including trades and waiver wire bids.</li>
+            <li>Third Offense: A league meeting of all members not involved in the improper activity will take place to discuss next steps, which may include suspension or removal from the league.</li>
+        </ol>
+
+    <h3 bind:this={eightFour}>Section 8.4 Trade Reversal</h3>
+    <p>All trades found to be the result of collusion will be reversed. If the trade had affected the outcome of previous games, the results of those games will be revised.</p>
+
+    <h2 class="sectionHeading" bind:this={nine}>Article IX Playoffs</h2>
+    
+    <h3 bind:this={nineOne}>Section 9.1 Playoff Structure</h3>
+        <p>The playoffs will consist of 6 teams, beginning in Week 15 of the NFL season.</p>
+
+    <h3 bind:this={nineTwo}>Section 9.2 Seeding and Byes</h3>
+        <ol>
+            <li>The top 2 teams based on regular season standings will receive an automatic bye in Week 15.</li>
+            <li>The remaining 4 teams will be seeded 3 vs. 6 and 4 vs. 5 for Week 15 matchups.</li>
+        </ol>
+    
+    <h3 bind:this={nineThree}>Section 9.3 Tiebreakers</h3>
+    <p>In the event of a tie in the regular season standings, the following tiebreakers will be used to determine playoff seeding, in order:</p>
+        <ol>
+            <li>Head-to-Head record between the tied teams.</li>
+            <li>Total Points For (PF) for the season.</li>
+            <li>Total Points Against (PA) for the season.</li>
+        </ol>
 
 </div>
