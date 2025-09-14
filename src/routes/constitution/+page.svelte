@@ -195,7 +195,7 @@
 <ol>
 
     <h3 bind:this={threeTwo}>Section 3.2 Rule Changes</h3>
-    <olclass="list-decimal pl-5">        
+    <ol class="list-decimal pl-5">        
         <li>Any proposed rule change must be submitted to the league for a vote.</li>
 
         <li>All rule changes, with the exception of those related to collusion as detailed in Article VIII, require a majority approval vote (7 out of 12 teams) to be enacted.</li>
@@ -208,7 +208,7 @@
     <h3 bind:this={fourOne}>4.1 Roster Size</h3>
     <p>Each team's total roster size is a maximum of 30 players, with 22 of those players being considered active. The breakdown is as follows:</p>
     <p>    Starting Lineup:</p>
-        <ol>
+        <ol class="list-decimal pl-5">
             <li>1 QB</li>
             <li>2 RB</li>
             <li>2 WR</li>
@@ -242,7 +242,7 @@
     <h3 bind:this={sixTwo}>Section 6.2 FAAB</h3>
     <p>Each team is issued $100 in FAAB (Free Agent Acquisition Budget) at the beginning of each season.</p>
 
-        <ol>
+        <ol class="list-decimal pl-5">
             <li>FAAB budgets reset when the league is renewed each year.</li>
             <li>There is no minimum bid amount. Bids of $0 are permitted.</li>
             <li>FAAB dollars can be traded as a tradable asset.</li>
