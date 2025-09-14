@@ -96,52 +96,61 @@
 </style>
 
 <div class="constitution">
-    <h1 class="noUnderscore">LEGENDS LEAGUE CONSTITUTION</h1>
+    <h1 class="noUnderscore">BOYS CLUB CONSTITUTION</h1>
     
     <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
     
-    <h3 class="noUnderscore clickable" onclick={() => goToSection(one)}>Section 1: Roster</h3>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(oneOne)}>1.1 Positional Breakdown</h4>
-            <h5 class="noUnderscore clickable" onclick={() => goToSection(oneOneOne)}>1.1.1 Position Maximums</h5>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(oneTwo)}>1.2 Trading</h4>
-            <h5 class="noUnderscore clickable" onclick={() => goToSection(oneTwoOne)}>1.2.1 Trade Collusion</h5>
-            <h5 class="noUnderscore clickable" onclick={() => goToSection(oneTwoTwo)}>1.2.2 Lending Players Prohibition</h5>
-            <h5 class="noUnderscore clickable" onclick={() => goToSection(oneTwoThree)}>1.2.3 Trade Deadline</h5>
-            <h5 class="noUnderscore clickable" onclick={() => goToSection(oneTwoFour)}>1.2.4 Trade Restrictions</h5>
-            <h5 class="noUnderscore clickable" onclick={() => goToSection(oneTwoFive)}>1.2.5 Veto/Trade Process</h5>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(oneThree)}>1.3 Waiver Wire</h4>
-    
-    <h3 class="noUnderscore clickable" onclick={() => goToSection(two)}>Section 2: Drafting</h3>
-    
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(twoOne)}>2.1 Draft Order</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(twoTwo)}>2.2 Rookie Drafts</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(twoThree)}>2.3 Draft Day Trades</h4>
-    
-    <h3 class="noUnderscore clickable" onclick={() => goToSection(three)}>Section 3: Scoring System</h3>
-    
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(threeOne)}>3.1 Voting on Scoring System</h4>
-    
-    <h3 class="noUnderscore clickable" onclick={() => goToSection(four)}>Section 4: Postseason</h3>
-    
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(fourOne)}>4.1 Playoffs</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(fourTwo)}>4.2 Playoff Tiebreakers</h4>
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(one)}>Article I: League Structure and Membership</h3>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(oneOne)}>Section 1.1 League Format</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(oneTwo)}>Section 1.2 Number of Teams</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(oneThree)}>Section 1.3 Membership
 
-    <h3 class="noUnderscore clickable" onclick={() => goToSection(five)}>Section 5: Tanking Policy</h3>
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(two)}>Article II: Financials</h3>
     
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(fiveOne)}>5.1 League Tanking Policy</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(twoOne)}>Section 2.1 Annual Buy-In</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(twoTwo)}>Section 2.2 Payment Deadline</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(twoThree)}>Section 2.3 Payouts</h4>
+    
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(three)}>Article III: League Governance and Rule Changes</h3>
+    
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(threeOne)}>Section 3.1 The Commissioner</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(threeTwo)}>Section 3.2 Rule Changes</h4>
+    
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(four)}>Article IV: Roster and Lineups</h3>
+    
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(fourOne)}>Section 4.1 Roster Size</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(fourTwo)}>Section 4.2 Active Roster</h4>
 
-    <h3 class="noUnderscore clickable" onclick={() => goToSection(six)}>Section 6: Replacing Managers</h3>
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(five)}>Article V: Draft</h3>
     
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixOne)}>6.1 Removing Managers</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixTwo)}>6.2 Replacing Managers</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixThree)}>6.3 Replacement Incentive</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(fiveOne)}>Section 5.1 Annual Rookie Draft</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(fiveTwo)}>Section 5.2 Draft Order</h4>
 
-    <h3 class="noUnderscore clickable" onclick={() => goToSection(seven)}>Section 7: League Finances</h3>
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(six)}>Article VI: Waivers and Free Agency</h3>
     
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(sevenOne)}>7.1 League Dues</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixTwo)}>7.2 Payout</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixThree)}>7.3 Raising Dues</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixOne)}>Section 6.1 Waiver Wire</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixTwo)}>Section 6.2 FAAB</h4>
+
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(seven)}>Article VII: Trading</h3>
     
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sevenOne)}>Section 7.1 Tradable Assets</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sevenTwo)}>Section 7.2 Draft Pick Trading</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sevenThree)}>Section 7.3 Trade Processing</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sevenFour)}>Section 7.4 Player Re-Acquisition</h4>
+
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(eight)}>Article VIII: Collusion and Penalties</h3>
+    
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(eightOne)}>Section 8.1 Definition of Collusion</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(eightTwo)}>Section 8.2 Commissioner Discretion</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(eightThree)}>Section 8.3 Collusion Penalties</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(eightFour)}>Section 8.4 Trade Reversal</h4>
+
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(nine)}>Article IX: Playoffs</h3>
+    
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(nineOne)}>Section 9.1 Playoff Structure</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(nineTwo)}>Section 9.2 Seeding and Byes</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(nineThree)}>Section 9.3 Tiebreakers</h4>
+
     
     <hr />
     
