@@ -105,7 +105,7 @@
     <h3 class="noUnderscore clickable" onclick={() => goToSection(one)}>Article I: League Structure and Membership</h3>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(oneOne)}>Section 1.1 League Format</h4>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(oneTwo)}>Section 1.2 Number of Teams</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(oneThree)}>Section 1.3 Membership
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(oneThree)}>Section 1.3 Membership</h4>
 
     <h3 class="noUnderscore clickable" onclick={() => goToSection(two)}>Article II: Financials</h3>
     
