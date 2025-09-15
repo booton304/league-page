@@ -93,7 +93,7 @@
     }
 
     p {
-        color: #777;
+        color: #FFFFFF;
     }
 </style>
 
@@ -202,7 +202,7 @@
             <li>Rule changes will not take effect until the start of the following season, unless a time-sensitive issue requires an immediate vote and implementation (e.g., an unforeseen rule discrepancy).</li>
         </ol>
 
-    <h2 class="sectionHeading" bind:this={four}>Article IV Roster and Lineups</h2>
+    <h2 class="sectionHeading" bind:this={four}>Article IV: Roster and Lineups</h2>
     
     <h3 bind:this={fourOne}>Section 4.1 Roster Size</h3>
     <p>Each team's total roster size is a maximum of 30 players, with 22 of those players being considered active. The breakdown is as follows:</p>
@@ -222,7 +222,7 @@
     <h3 bind:this={fourTwo}>Section 4.2 Active Roster</h3>
     <p>All teams must set a complete starting lineup each week of the regular season and playoffs. Intentionally leaving a starting roster spot empty to improve a draft position (tanking) is not permitted. Any evidence of such behavior may result in a punishment, including but not limited to the forfeiture of draft selections, as determined by the commissioner and a league vote.</p>
 
-    <h2 class="sectionHeading" bind:this={five}>Article V Draft</h2>
+    <h2 class="sectionHeading" bind:this={five}>Article V: Draft</h2>
     
     <h3 bind:this={fiveOne}>Section 5.1 Annual Rookie Draft</h3>
     <p>The annual rookie draft will be a linear draft consisting of 4 rounds.</p>
@@ -233,7 +233,7 @@
 
     <p>Picks 1-6: The draft order for the six playoff teams will be determined by a weighted, yet random process. This process will be selected each year by the team that finished last in the regular season and is subject to a league vote for approval. The process is intended to emulate an NBA-style draft lottery to maintain competitive balance among top teams.</p>
 
-    <h2 class="sectionHeading" bind:this={six}>Article VI Waivers and Free Agency</h2>
+    <h2 class="sectionHeading" bind:this={six}>Article VI: Waivers and Free Agency</h2>
     
     <h3 bind:this={sixOne}>Section 6.1 Waiver Wire</h3>
     <p>The waiver wire is continually open.</p>
@@ -247,7 +247,7 @@
             <li>FAAB dollars can be traded as a tradable asset.</li>
         </ol>
     
-    <h2 class="sectionHeading" bind:this={seven}>Article VII Trading</h2>
+    <h2 class="sectionHeading" bind:this={seven}>Article VII: Trading</h2>
     
     <h3 bind:this={sevenOne}>Section 7.1 Tradable Assets</h3>
     <p>Tradable assets include players, draft picks, and FAAB dollars.</p>
@@ -264,7 +264,7 @@
     <h3 bind:this={sevenFour}>Section 7.4 Player Re-Acquisition</h3>
     <p>Any player traded from a team may not be re-acquired via trade by the original team within 6 weeks of the original trade date. Any teams involved in this behavior will be subject to collusion punishments.</p>
     
-    <h2 class="sectionHeading" bind:this={eight}>Article VIII Collusion and Penalties</h2>
+    <h2 class="sectionHeading" bind:this={eight}>Article VIII: Collusion and Penalties</h2>
     
     <h3 bind:this={eightOne}>Section 8.1 Definition of Collusion</h3>
         <ol>
@@ -286,7 +286,7 @@
     <h3 bind:this={eightFour}>Section 8.4 Trade Reversal</h3>
     <p>All trades found to be the result of collusion will be reversed. If the trade had affected the outcome of previous games, the results of those games will be revised.</p>
 
-    <h2 class="sectionHeading" bind:this={nine}>Article IX Playoffs</h2>
+    <h2 class="sectionHeading" bind:this={nine}>Article IX: Playoffs</h2>
     
     <h3 bind:this={nineOne}>Section 9.1 Playoff Structure</h3>
         <p>The playoffs will consist of 6 teams, beginning in Week 15 of the NFL season.</p>
