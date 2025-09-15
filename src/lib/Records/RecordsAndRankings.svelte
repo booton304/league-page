@@ -763,7 +763,7 @@
                             </Cell>
                             <Cell>{round(fptsHistory.fptsFor)}</Cell>
                             <Cell>{round(fptsHistory.fptsAgainst)}</Cell>
-                            <Cell>{round(fptsHistory.fptsPerGame*2)}</Cell>
+                            <Cell>{round(fptsHistory.fptsPerGame)}</Cell>
                         </Row>
                     {/each}
                 </Body>
