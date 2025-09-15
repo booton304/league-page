@@ -207,13 +207,13 @@
     <h3 bind:this={fourOne}>Section 4.1 Roster Size</h3>
     <p>Each team's total roster size is a maximum of 30 players, with 22 of those players being considered active. The breakdown is as follows:</p>
     <p>    Starting Lineup:</p>
-        <ol>
+        <ul>
             <li>1 QB</li>
             <li>2 RB</li>
             <li>2 WR</li>
             <li>1 TE</li>
             <li>4 Flex (RB/WR/TE)</li>
-        </ol>
+        </ul>
 
     <p>    Bench: 15 players</p>
     <p>    Injured Reserve (IR): 3 spots for players with an official IR designation.</p>
@@ -241,11 +241,12 @@
     <h3 bind:this={sixTwo}>Section 6.2 FAAB</h3>
     <p>Each team is issued $100 in FAAB (Free Agent Acquisition Budget) at the beginning of each season.</p>
 
-        <ol>
+        <ul>
             <li>FAAB budgets reset when the league is renewed each year.</li>
-            <li>There is no minimum bid amount. Bids of $0 are permitted.</li>
+            <li>There is no minimum bid amount.</li>
+            <li>Bids of $0 are permitted.</li>
             <li>FAAB dollars can be traded as a tradable asset.</li>
-        </ol>
+        </ul>
     
     <h2 class="sectionHeading" bind:this={seven}>Article VII: Trading</h2>
     
