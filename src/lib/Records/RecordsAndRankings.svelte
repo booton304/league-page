@@ -543,7 +543,7 @@
                         </Cell>
                         <Cell>{mostSeasonLongPoint.year}</Cell>
                         <Cell>{round(mostSeasonLongPoint.fpts)}</Cell>
-                        <Cell>{mostSeasonLongPoint.fptsPerGame}</Cell>
+                        <Cell>{mostSeasonLongPoint.fptsPerGame*2}</Cell>
                     </Row>
                 {/each}
             </Body>
@@ -573,7 +573,7 @@
                         </Cell>
                         <Cell>{leastSeasonLongPoint.year}</Cell>
                         <Cell>{round(leastSeasonLongPoint.fpts)}</Cell>
-                        <Cell>{leastSeasonLongPoint.fptsPerGame}</Cell>
+                        <Cell>{leastSeasonLongPoint.fptsPerGame*2}</Cell>
                     </Row>
                 {/each}
             </Body>
@@ -763,7 +763,7 @@
                             </Cell>
                             <Cell>{round(fptsHistory.fptsFor)}</Cell>
                             <Cell>{round(fptsHistory.fptsAgainst)}</Cell>
-                            <Cell>{round(fptsHistory.fptsPerGame)}</Cell>
+                            <Cell>{round(fptsHistory.fptsPerGame*2)}</Cell>
                         </Row>
                     {/each}
                 </Body>
