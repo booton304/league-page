@@ -156,7 +156,7 @@
     
     <hr />
     
-    <h2 class="sectionHeading" bind:this={one}>Article I League Structure and Membership</h2>
+    <h2 class="sectionHeading" bind:this={one}>Article I: League Structure and Membership</h2>
     
     <h3 class="subSectionHeading" bind:this={oneOne}>Section 1.1 League Format</h3>
     
@@ -171,8 +171,9 @@
             <li>The commissioner, or a majority vote of the league, reserves the right to invite new members to fill any vacated spots.</li>
             <li>Membership can be expanded with a majority vote.</li>
             <li>All members are expected to be active participants throughout the year, including setting a full lineup each week and engaging in league communications and votes.</li>
-        <ol>    
-    <h2 class="sectionHeading" bind:this={two}>Article II Financials</h2>
+        </ol>
+
+    <h2 class="sectionHeading" bind:this={two}>Article II: Financials</h2>
     
     <h3 bind:this={twoOne}>Section 2.1 Annual Buy-In</h3>
     <p>The annual buy-in is $50 per team.</p>
@@ -183,7 +184,7 @@
     <h3 bind:this={twoThree}>Section 2.3 Payouts</h3>
     <p>The distribution of the prize pool will be determined by a league vote at the start of each season.</p>
     
-    <h2 class="sectionHeading" bind:this={three}>Article III League Governance and Rule Changes</h2>
+    <h2 class="sectionHeading" bind:this={three}>Article III: League Governance and Rule Changes</h2>
 
     <h3 bind:this={threeOne}>Section 3.1 The Commissioner</h3>
     <p>The Commissioner is responsible for the day-to-day operation of the league, including but not limited to:</p>
@@ -192,18 +193,18 @@
             <li>Managing the Sleeper fantasy app settings,</li>
             <li>Facilitating the annual rookie draft and offseason, and</li>
             <li>Acting as the final arbiter in any disputes.</li>
-        <ol>
+        </ol>
 
     <h3 bind:this={threeTwo}>Section 3.2 Rule Changes</h3>
         <ol>        
             <li>Any proposed rule change must be submitted to the league for a vote.</li>
             <li>All rule changes, with the exception of those related to collusion as detailed in Article VIII, require a majority approval vote (7 out of 12 teams) to be enacted.</li>
             <li>Rule changes will not take effect until the start of the following season, unless a time-sensitive issue requires an immediate vote and implementation (e.g., an unforeseen rule discrepancy).</li>
-        <ol>
+        </ol>
 
     <h2 class="sectionHeading" bind:this={four}>Article IV Roster and Lineups</h2>
     
-    <h3 bind:this={fourOne}>4.1 Roster Size</h3>
+    <h3 bind:this={fourOne}>Section 4.1 Roster Size</h3>
     <p>Each team's total roster size is a maximum of 30 players, with 22 of those players being considered active. The breakdown is as follows:</p>
     <p>    Starting Lineup:</p>
         <ol>
